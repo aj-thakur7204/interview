@@ -1,0 +1,61 @@
+.uno_upload_file {
+    position: relative;
+    height: 200px;
+    overflow: hidden;
+}
+.uno_upload_file .uno_upload_file_img img{
+    width: 100%;
+}
+.uno_upload_file .upload_file_profile{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+}
+.uno_upload_file .upload_file_profile img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+.uno_upload_file.upload_file_profile .uno_upload_btn{
+    right: 50%;
+    transform: translateX(50%);
+}
+
+
+
+.uno_upload_file .uno_upload_btn.uno_upload_file_edit{
+    background-color: rgb(47, 0, 255);
+}
+.uno_upload_file .uno_upload_btn.uno_upload_file_publish{
+    background-color: rgb(255, 0, 0); 
+}
+.uno_upload_file .uno_upload_btn{
+        cursor: pointer;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        overflow: hidden;
+        color: #fff;
+        padding: 5px 15px;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .uno_upload_file .uno_upload_input{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        top: 0;
+        width: 100%;
+        background-color: transparent !important;
+        background: none;
+        border: none;
+        opacity: 0;
+        cursor: pointer;
+  }
+
+  .ReactCrop{
+      width: 100%;
+  }

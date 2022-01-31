@@ -1,23 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import ImgUpload from './components/ImgUpload'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <div className={"uno-row"}> 
+            <div className={"uno-profile"}>
+              <ImgUpload  
+                uploadFile ="profile"
+              />
+            </div>
+            <div className={"uno-cover-img"}>
+              <ImgUpload />
+            </div>
+        </div>
+      
     </div>
   );
 }
